@@ -2,35 +2,46 @@
     border: 1px black solid;
     padding: 10px;
     
-    color: red;
     background-color: darkgrey;
 }
 .full-body{
     border: 1px black solid;
     padding: 10px;
+
+    background-color: deepskyblue;
     display: flex;
 }
 .video-comments{
     border: 1px black solid;
     padding: 10px;
 
+    flex: 3;
+
     background-color: darkkhaki;
 }
 .video{
     border: 1px black solid;
     padding: 10px;
+
+    background-color: grey;
 }
 .video-details{
     border: 1px black solid;
     padding: 10px;
+
+    background-color: lightskyblue;
 }
 .comments{
     border: 1px black solid;
     padding: 10px;
+
+    background-color: lightyellow;
 }
 .suggested{
     border: 1px black solid;
     padding: 10px;
 
-    background-color: darkturquoise;
+    flex: 1;
+    
+    background-color: lightsalmon;
 }

@@ -38,15 +38,7 @@
 .t1{
     flex: 1;
 }
-.t2{
-    flex: 1;
-}
-.t3{
-    flex: 1;
-}
-.t4{
-    flex: 1;
-}
+
 
 #upload-icon{
     height: 40px;
@@ -82,33 +74,61 @@
 }
 
 .full-body{
-    border: 1px black solid;
+    /* border: 1px black solid; */
     padding: 10px;
     margin-top: 60px;
 
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
     display: flex;
 }
 .video-comments{
-    border: 1px black solid;
     padding: 10px;
 
     flex: 3;
 
-    background-color: darkkhaki;
+    /* border: 1px black solid; */
+    /* background-color: darkkhaki; */
 }
+
+.img-sug{
+    height: 180px;
+    width: 320px;
+}
+
 .video{
-    border: 1px black solid;
+    
     padding: 10px;
 
-    background-color: grey;
+    /* border: 1px black solid; */
+    /* background-color: grey; */
 }
 .video-details{
-    border: 1px black solid;
+    /* border: 1px black solid; */
     padding: 10px;
 
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
 }
+
+.views-likes{
+    display: flex;
+}
+.views{
+    flex: 3;
+}
+.likes{
+    flex: 2;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+
+.like-logo{
+    flex: 1;
+}
+
+.logos{
+    height: 30px;
+}
+
 .comments{
     border: 1px black solid;
     padding: 10px;

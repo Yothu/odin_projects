@@ -1,0 +1,36 @@
+.top-bar{
+    border: 1px black solid;
+    padding: 10px;
+    
+    color: red;
+    background-color: darkgrey;
+}
+.full-body{
+    border: 1px black solid;
+    padding: 10px;
+    display: flex;
+}
+.video-comments{
+    border: 1px black solid;
+    padding: 10px;
+
+    background-color: darkkhaki;
+}
+.video{
+    border: 1px black solid;
+    padding: 10px;
+}
+.video-details{
+    border: 1px black solid;
+    padding: 10px;
+}
+.comments{
+    border: 1px black solid;
+    padding: 10px;
+}
+.suggested{
+    border: 1px black solid;
+    padding: 10px;
+
+    background-color: darkturquoise;
+}

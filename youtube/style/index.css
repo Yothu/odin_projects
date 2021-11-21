@@ -1,12 +1,90 @@
 .top-bar{
     border: 1px black solid;
     padding: 10px;
+    width: 100% ;
+    height: 40px;
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
     
-    background-color: darkgrey;
+    background-color: white;
 }
+
+.logo-div{
+    /*background-color: lightsteelblue;*/
+    flex: 1;
+
+    display: flex;
+}
+
+.logo{
+    /*background-color: lightcoral;*/
+    flex: 1;
+}
+
+.logo-separator{
+    /*background-color: lemonchiffon;*/
+    flex: 1;
+}
+
+.search-bar{
+    /*background-color: limegreen;*/
+    flex: 2;
+}
+
+.t1{
+    flex: 1;
+}
+.t2{
+    flex: 1;
+}
+.t3{
+    flex: 1;
+}
+.t4{
+    flex: 1;
+}
+
+#upload-icon{
+    height: 40px;
+}
+#dots-icon{
+    height: 40px;
+}
+#notification-icon{
+    height: 40px;
+}
+#user-icon{
+    height: 40px;
+}
+
+.tools{
+    /* background-color: lightpink; */
+    flex: 1;
+
+    display: flex;
+}
+
+#logo-image{
+    height: 40px;
+}
+
+#search-box{
+    height: 35px;
+    width: 600px;
+}
+
+#submit-search{
+    height: 35px;
+}
+
 .full-body{
     border: 1px black solid;
     padding: 10px;
+    margin-top: 60px;
 
     background-color: deepskyblue;
     display: flex;
@@ -42,6 +120,6 @@
     padding: 10px;
 
     flex: 1;
-    
+
     background-color: lightsalmon;
 }
